@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body,html{
+height:100%;
+width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    
+}
+#navbar{
+    height: 80px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    padding: 0 20px;
+}
+#navbar h4{
+    font-size: 20px;
+}
+#navbar i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+#center{
+    
+    height:35%;
+    width:100%;
+     /* background-color: red;   */
+    padding-top:30px ;
+}
+#center h1{
+    margin-left: 40px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 59px;
+}
+#center_inner{
+    /* background-color: aqua; */
+    height: 200px;
+    width: 100%;
+    margin-top: 39px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+#center_inner p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#right{
+    width: 20vw; 
+    /* background-color:yellow ; */
+    margin-right: 30px; 
+}
+.elem{
+  
+  padding: 17px;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.elem a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.elem i{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1590270244935-ccf26523fb48?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    
+}
